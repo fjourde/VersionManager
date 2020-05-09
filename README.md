@@ -42,6 +42,10 @@ create a file named "versions.json" witch contain version definition
 
 ## 3. Use Tag Helper 
 
+First add to your _ViewImports.cshtml
+
+	@addTagHelper *, VersionManager
+
 In the .cshtml file where you would like to display version, use the following tag
 
 	<website-version>
